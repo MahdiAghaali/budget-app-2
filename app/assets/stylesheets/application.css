@@ -198,8 +198,8 @@ input::placeholder {
   font-size: 0.9rem;
 }
 
-.group>div,
-.group>div>a {
+.group > div,
+.group > div > a {
   display: flex;
   gap: 0.4rem;
   align-items: center;
@@ -276,12 +276,12 @@ input::placeholder {
   box-shadow: 2px 2px 3px var(--grey3), -1px 0 3px var(--grey3);
 }
 
-.group_header>div {
+.group_header > div {
   width: 100%;
   justify-content: space-between;
 }
 
-.group>div:last-child {
+.group > div:last-child {
   align-self: flex-end;
 }
 
